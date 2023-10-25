@@ -7,11 +7,11 @@ import CanvasLoader from '../Loader';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 const Astro = ({ isMobile }) => {
-  const computer = useLoader(GLTFLoader, './Astro/scene.gltf');
+  const astro = useLoader(GLTFLoader, './Astro/scene.gltf');
   let mixer;
-  if (computer.animations.length) {
-    mixer = new THREE.AnimationMixer(computer.scene);
-    computer.animations.forEach(clip => {
+  if (astro.animations.length) {
+    mixer = new THREE.AnimationMixer(astro.scene);
+    astro.animations.forEach(clip => {
       const action = mixer.clipAction(clip);
       action.play();
     });
@@ -34,7 +34,7 @@ const Astro = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
-        object={computer.scene}
+        object={astro.scene}
         scale={isMobile ? 2.5 : 2}
         position={isMobile ? [0, -3.5, -2.2] : [0, -3.25, -1.5]}
         rotation={[0, 0, 0]}
