@@ -1,62 +1,46 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import behance from './behance.svg';
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import logo from './logo.svg';
+import laptop from './laptop.json';
+import rocket from './rocket.json';
+import coffee from './coffee.json';
+import planet from './planet.json';
+import menu from './menu.svg';
+import close from './close.svg';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ai from './skills/ai.svg';
+import ps from './skills/ps.svg';
+import ae from './skills/ae.svg';
+import pr from './skills/pr.svg';
+import blender from './skills/blender.svg';
+import figma from './skills/figma.png';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import waltz from './company/waltz.svg';
+import aronic from './company/aronic.svg';
+
+import aerolens from './aerolens.png';
+import noize from './noize.png';
+
+import ResumePdf from './resume.pdf';
 
 export {
+  behance,
+  laptop,
+  rocket,
+  coffee,
+  planet,
+  ResumePdf,
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
   menu,
   close,
-  css,
-  docker,
+  ae,
+  ps,
+  ai,
+  pr,
   figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  blender,
+  waltz,
+  aronic,
+  noize,
+  aerolens,
 };
