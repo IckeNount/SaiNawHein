@@ -49,15 +49,15 @@ const Navbar = () => {
           <img
             src={behance}
             alt='behance'
-            className='w-9 h-9 object-contain'
+            className='w-7 h-7 object-contain'
             onClick={() => openNewTab('https://www.behance.net/ickenount')}
           />
           <p
-            className='text-white text-[18px] font-bold cursor-pointer flex 
-          hover:text-secondary cursor=pointer'
+            className='text-white font-bold cursor-pointer flex hover:text-secondary 
+            text-base sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl'
             onClick={clickDownload}
           >
-            Resume
+            Download Resume
           </p>
         </Link>
 
