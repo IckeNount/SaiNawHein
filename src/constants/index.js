@@ -3,12 +3,12 @@ import {
   rocket,
   planet,
   laptop,
-  ps,
-  ai,
-  ae,
-  pr,
-  blender,
-  figma,
+  psC,
+  aeC,
+  blenderC,
+  aiC,
+  prC,
+  figmaC,
   noize,
   aerolens,
   waltz,
@@ -52,27 +52,32 @@ const services = [
 const technologies = [
   {
     name: 'Photoshop',
-    icon: ps,
+    icon: psC,
   },
+
   {
     name: 'Illustrator',
-    icon: ai,
+    icon: aiC,
   },
+
   {
     name: 'After Effects',
-    icon: ae,
+    icon: aeC,
   },
+
   {
     name: 'Premiere Pro',
-    icon: pr,
+    icon: prC,
   },
+
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Figma',
+    icon: figmaC,
   },
+
   {
     name: 'Blender',
-    icon: blender,
+    icon: blenderC,
   },
 ];
 
@@ -161,4 +166,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, experiences, technologies, projects };
