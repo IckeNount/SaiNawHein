@@ -4,6 +4,9 @@ import arrow1 from './arrow1.svg';
 import arrow2 from './arrow2.svg';
 
 import figmaC from './skills/figmaC.svg';
+import htmlC from './skills/htmlC.svg';
+import jsC from './skills/jsC.svg';
+import cssC from './skills/cssC.svg';
 import aiC from './skills/aiC.svg';
 import prC from './skills/prC.svg';
 import psC from './skills/psC.svg';
@@ -30,6 +33,9 @@ import ResumePdf from './resume.pdf';
 
 export {
   figma,
+  htmlC,
+  cssC,
+  jsC,
   figmaC,
   prC,
   aiC,

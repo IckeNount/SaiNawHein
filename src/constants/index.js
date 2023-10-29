@@ -3,6 +3,9 @@ import {
   rocket,
   planet,
   laptop,
+  htmlC,
+  cssC,
+  jsC,
   psC,
   aeC,
   blenderC,
@@ -78,6 +81,21 @@ const technologies = [
   {
     name: 'Blender',
     icon: blenderC,
+  },
+
+  {
+    name: 'HTML',
+    icon: htmlC,
+  },
+
+  {
+    name: 'CSS',
+    icon: cssC,
+  },
+
+  {
+    name: 'Javascript',
+    icon: jsC,
   },
 ];
 
