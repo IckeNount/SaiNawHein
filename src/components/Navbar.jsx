@@ -50,7 +50,7 @@ const Navbar = () => {
             src={behance}
             alt='behance'
             className='w-7 h-7 object-contain'
-            onClick={() => openNewTab('https://www.behance.net/ickenount')}
+            onClick={() => openNewTab('https://www.behance.net/nawhein')}
           />
           <p
             className='text-white font-bold cursor-pointer flex hover:text-secondary 
