@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   const openNewTab = url => {
-    window.open(url, 'http://localhost:5173/'); // Open in a new tab
+    window.open(url, ''); // Open in a new tab
   };
 
   const clickDownload = () => {
