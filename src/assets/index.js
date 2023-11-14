@@ -29,7 +29,7 @@ import aronic from './company/aronic.svg';
 import aerolens from './aerolens.png';
 import noize from './noize.png';
 
-import ResumePdf from './resume.pdf';
+import ResumePdf from './resume.docx';
 
 export {
   figma,
