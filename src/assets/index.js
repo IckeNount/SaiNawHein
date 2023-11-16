@@ -29,7 +29,7 @@ import aronic from './company/aronic.svg';
 import aerolens from './aerolens.png';
 import noize from './noize.png';
 
-import ResumePdf from './resume.docx';
+import ResumeDocx from './resume.docx';
 
 export {
   figma,
@@ -49,7 +49,7 @@ export {
   rocket,
   coffee,
   planet,
-  ResumePdf,
+  ResumeDocx,
   logo,
   menu,
   close,

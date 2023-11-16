@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { behance, menu, close, ResumePdf } from '../assets';
+import { behance, menu, close, ResumeDocx } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -31,8 +31,8 @@ const Navbar = () => {
 
   const clickDownload = () => {
     const link = document.createElement('a');
-    link.href = ResumePdf;
-    link.download = 'resume.pdf';
+    link.href = ResumeDocx;
+    link.download = 'SaiNawHein_GraphicDesigner.pdf';
     link.click();
   };
 
